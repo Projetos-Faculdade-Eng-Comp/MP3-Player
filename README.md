@@ -2,10 +2,10 @@
 Projeto final da disciplina de Sistemas Microprocessados , Universidade Federal do Ceará, turma de Engenharia de Computação 2022.2
 
 # Integrantes
-* Moisés Conrado Marinho Eufrásio Filho
-* Rafael Gurgel Soares
-* Thaís Bezerra de Menezes Benício de Sousa-509803
-* Víctor Chagas de Lima
+* Moisés Conrado Marinho Eufrásio Filho - 516223
+* Rafael Gurgel Soares - 509023
+* Thaís Bezerra de Menezes Benício de Sousa - 509803
+* Víctor Chagas de Lima - 510486
 
 # Componentes
 * Greenpill STM32F070F6P6
@@ -16,6 +16,8 @@ Projeto final da disciplina de Sistemas Microprocessados , Universidade Federal 
 
 # Descrição
 ![photo_4947628104394844875_y](https://user-images.githubusercontent.com/110418856/207138031-0827b27d-19b4-482d-9ff1-0d850947c7c6.jpg)
+
+![photo1670885955](https://user-images.githubusercontent.com/111692964/207183933-7dc53c64-364c-4510-af2e-a47af612028f.jpeg)
 
 O projeto consiste de um MP3 Player com base no controle do módulo DFPlayer Mini pelo microcontrolador STM32F070F6P6.
 O módulo DFPlayer Mini possui diversas funções para reprodução de músicas de várias fontes. Neste projeto, utilizamos como fonte um cartão microSD. A comunicação do módulo com o MCU se dá através da UART, a fim de controlar, por exemplo, o volume da música, a função de play/pause e next. O som é reproduzido por meio de um fone de ouvido.
