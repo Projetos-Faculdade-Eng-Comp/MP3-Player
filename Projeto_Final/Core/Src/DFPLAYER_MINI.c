@@ -73,7 +73,7 @@ void DF_Init (uint8_t volume)
 
 void DF_Next (void)
 {
-	if(ispause)
+	if (ispause)
 	{
 		OledSetCursor(0,2);
 		OledPutString("              ");
@@ -82,6 +82,12 @@ void DF_Next (void)
 
 		isplaying = 1;
 		ispause = 0;
+		Send_cmd(0x01, 0x00, 0x00);
+		HAL_Delay(200);
+	}
+	
+	else if (isplaying)
+	{
 		Send_cmd(0x01, 0x00, 0x00);
 		HAL_Delay(200);
 	}
@@ -195,18 +201,3 @@ void Check_Key (void)
 		DF_Next();
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
