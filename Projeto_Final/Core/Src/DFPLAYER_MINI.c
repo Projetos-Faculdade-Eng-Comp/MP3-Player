@@ -73,8 +73,15 @@ void DF_Init (uint8_t volume)
 
 void DF_Next (void)
 {
-	if(isplaying)
+	if(ispause)
 	{
+		OledSetCursor(0,2);
+		OledPutString("              ");
+		OledSetCursor(0,2);
+		OledPutString("Reproduzindo");
+
+		isplaying = 1;
+		ispause = 0;
 		Send_cmd(0x01, 0x00, 0x00);
 		HAL_Delay(200);
 	}
