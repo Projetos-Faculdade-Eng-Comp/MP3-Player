@@ -1,14 +1,18 @@
 # MP3 Player
-Projeto final da disciplina de Microprocessados da turma de Engenharia de Computação 2022.2
+Projeto final da disciplina de Sistemas Microprocessados , Universidade Federal do Ceará, turma de Engenharia de Computação 2022.2
 
 # Integrantes
 * Moisés Conrado Marinho Eufrásio Filho
 * Rafael Gurgel Soares
-* Thaís Bezerra de Menezes Benício de Sousa
+* Thaís Bezerra de Menezes Benício de Sousa-509803
 * Víctor Chagas de Lima
 
 # Componentes
+* Greenpill STM32F070F6P6
 * DFPlayer Mini
+* Push buttons
+* Display OLED
+* Fone de ouvido
 
 # Descrição
 O projeto consiste de um MP3 Player com base no controle do módulo DFPlayer Mini pelo microcontrolador STM32F070F6P6.
