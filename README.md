@@ -24,6 +24,6 @@ O módulo DFPlayer Mini possui diversas funções para reprodução de músicas 
 
 (Obs.: para o DFPlayer Mini funcionar corretamente, é muito importante que ele seja alimentado com tensão suficiente. Se a tensão de 3.3V do STLink não for suficiente, a saída de 5.0V pode ser usada para alimentar apenas o DFPlayer Mini. A Greenpill não pode ser conectada aos 5V.)
 
-A interação com o usuário é feita por meio de push buttons configurados em pull down, que estão conectados por meio de GPIO ao microcontrolador. Cada botão executa uma função, a saber: diminuir volume, aumentar volume, passar para a próxima música e play/pause. Além disso, um display OLED informa ao usuário as informações relevantes, como o volume atual, se está pausado ou reproduzindo e se foi atingido o volume máximo.
+No nosso projeto, a interação com o usuário é feita por meio de push buttons configurados em pull down, que estão conectados por meio de GPIO ao microcontrolador. Cada botão executa uma função, a saber: diminuir volume, aumentar volume, passar para a próxima música e play/pause. Além disso, um display OLED informa ao usuário as informações relevantes, como o volume atual, se está pausado ou reproduzindo e se foi atingido o volume máximo.
 
 ![20221212_092533](https://user-images.githubusercontent.com/110418856/207137539-2133a9a0-acf7-4960-9fe5-9655ff0a31e9.jpg)
