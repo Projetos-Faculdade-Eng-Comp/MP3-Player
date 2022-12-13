@@ -1,5 +1,5 @@
 # MP3 Player
-Projeto final da disciplina de Sistemas Microprocessados , Universidade Federal do Ceará, turma de Engenharia de Computação 2022.2
+Projeto final da disciplina de Sistemas Microprocessados, Universidade Federal do Ceará, turma de Engenharia de Computação 2022.2
 
 # Integrantes
 * Moisés Conrado Marinho Eufrásio Filho - 516223
