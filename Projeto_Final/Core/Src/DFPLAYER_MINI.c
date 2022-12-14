@@ -33,6 +33,7 @@ extern UART_HandleTypeDef huart1;
 int ispause    = 0;
 int isplaying  = 1;
 int volume     = 16;
+int cont       = 0;
 
 # define Start_Byte 0x7E
 # define End_Byte   0xEF
@@ -161,6 +162,19 @@ void DF_DecreaseVolume (void)
 			OledPutString("              ");
 		}
 	}
+}
+
+void DF_equalizador(void)
+{
+	if(cont==5)
+	{
+		cont=-1;
+	}
+
+	cont++;
+
+	Send_cmd(0x07,0,(uint8_t)cont);
+	HAL_Delay(200);
 }
 
 void Check_Key (void)
